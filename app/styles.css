@@ -1,0 +1,191 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+body{
+    background: url("./assets/background.png");
+    color: white;
+    background-position: center;
+    background-size: cover;
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+
+.item5 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'menu header header header'
+    'menu main main main '
+    'menu footer footer footer';
+  gap: 10px;
+  
+ 
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  
+}
+
+/* sidebar */
+.item2{
+    background-color: #660099;
+}
+ul li{
+    list-style-type: none;
+    text-align: left;
+    padding: 10px;
+}
+
+
+/* recent-container styles */
+
+.recent-container {
+    position: relative;
+    width: 740px;
+    height: 638px;
+    margin: auto;
+    margin-left: 60px;
+    
+}
+
+.recent1 {
+    position: relative;
+    width: 740px;
+    height: 508px;
+    margin: auto;
+    border: 1px solid #660099;
+    background: rgba(15, 11, 11, 0.7);
+}
+
+.recent-container h6 {
+    text-align: left;
+    font-size: 14px;
+    padding-bottom: 8px;
+}
+
+.recent-container .recent1 img {
+    width: 165px;
+    height: 86px;
+    margin-top: 30px;
+    margin-left: 55px;
+}
+
+.box .span1 span {
+    position: absolute;
+    font-weight: 600;
+    font-size: 14px;
+    left: 118px;
+    top: 60px;
+}
+
+.box .span2 span {
+    position: absolute;
+    font-weight: 600;
+    font-size: 14px;
+    left: 334px;
+    top: 60px;
+}
+
+.box .span3 span {
+    position: absolute;
+    font-weight: 600;
+    font-size: 14px;
+    left: 570px;
+    top: 60px;
+}
+
+.box .span4 span {
+    position: absolute;
+    font-weight: 600;
+    font-size: 14px;
+    left: 105px;
+    top: 180px;
+}
+
+.box .span5 span {
+    position: absolute;
+    font-weight: 600;
+    font-size: 14px;
+    left: 338px;
+    top: 180px;
+}
+
+.box .span6 span {
+    position: absolute;
+    font-weight: 600;
+    font-size: 14px;
+    left: 570px;
+    top: 180px;
+}
+
+.box .span7 span {
+    position: absolute;
+    font-weight: 600;
+    font-size: 14px;
+    left: 118px;
+    top: 300px;
+}
+
+.box .span8 span {
+    position: absolute;
+    font-weight: 600;
+    font-size: 14px;
+    left: 334px;
+    top: 300px;
+}
+
+.box .span9 span {
+    position: absolute;
+    font-weight: 600;
+    font-size: 14px;
+    left: 555px;
+    top: 300px;
+}
+
+
+.box .span10 span {
+    position: absolute;
+    font-weight: 600;
+    font-size: 14px;
+    left: 104px;
+    top: 420px;
+}
+
+.box .span11 span {
+    position: absolute;
+    font-weight: 600;
+    font-size: 14px;
+    left: 345px;
+    top: 420px;
+}
+
+.box .span12 span {
+    position: absolute;
+    font-weight: 600;
+    font-size: 14px;
+    left: 545px;
+    top: 420px;
+}
+
+.recent-container .recent1 .box {
+    display: flex;
+    justify-content: space-between;
+    width: 667px;
+    height: 120px;
+}
+
+.recent-container hr {
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.recent-container .bg-purple-900 {
+    width: 740px;
+}
