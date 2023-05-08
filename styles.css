@@ -439,6 +439,13 @@ input[type="radio"] {
 }
 #fix{
     color: #ffffff;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+input[type=number]{
+    width: 10%;
+    color: #fff;
+    float: left;
+    margin-left: 20px;
 }
   

@@ -16,29 +16,30 @@
             <h3>Sign in to Muzira</h3>
             <button id="btn2"><img src="images/google-removebg-preview 1.png" alt="google"><a href="#"><span>Continue With Google</span></a></button>
             <h2 class="hr-lines1">OR</h2>
-            <label for="email">Email</label><br>
-            <input type="email" placeholder="Email Address" id="fix" required>
-            <label for="password">Password</label><br>
-            <input type="password" placeholder="Create Password" id="fix" required>
-            <label for="password">Confirm Password</label><br>
-            <input type="password" placeholder="Confirm Password" id="fix" required>
-            <label for="text">Enter profile name</label><br>
-            <input type="text" placeholder="Enter Profile Name" id="fix" required>
-            <h6>What is your date of birth</h6>
-            <input type="datetime-local" name="" id="fix">
-            <!--<button><span>Day</span></button>
-            <button><span>Month</span></button>
-            <button><span>Year</span></button>-->
-
-            <h6>Gender</h6>
-            <input type="radio">    <label for="male"><span>Male</span></label>
-            <input type="radio">    <label for="female"><span>Female</span></label>
-            <input type="radio">    <label for="prefer not to say"><span>Prefer not to say</span></label>
-            <p>By clicking on sign-up you agree fully to the terms and conditions and privacy policy.</p>
-            <button id="btn3"><span>SIGN UP</span></button>
+            <form>
+                <label for="email">Email</label><br>
+                <input type="email" placeholder="Email Address" id="fix" required>
+                <label for="password">Password</label><br>
+                <input type="password" placeholder="Create Password" id="fix" required>
+                <label for="password">Confirm Password</label><br>
+                <input type="password" placeholder="Confirm Password" id="fix" required>
+                <label for="text">Enter profile name</label><br>
+                <input type="text" placeholder="Enter Profile Name" id="fix" required>
+                <h6>What is your date of birth</h6>
+                <input type="number" min="1" max="31" placeholder="Day"> 
+                <input type="number" min="1" max="12" placeholder="Month"> 
+                <input type="number" min="1900" max="2023" placeholder="Year"><br><br>
+                <h6>Gender</h6>
+                <input type="radio">    <label for="male"><span>Male</span></label>
+                <input type="radio">    <label for="female"><span>Female</span></label>
+                <input type="radio">    <label for="prefer not to say"><span>Prefer not to say</span></label>
+                <p>By clicking on sign-up you agree fully to the terms and conditions and privacy policy.</p>
+                <button id="btn3"><span>SIGN UP</span></button>
+            </form>
             <div id="link2">
                 <a href="login.html"><span>Have an account? Login</span></a>
             </div>
+            
         </div>
     </div>
 
