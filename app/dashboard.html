@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="tab">
+      <button
+        class="tablinks"
+        onclick="openCity(event, 'Home')"
+        id="defaultOpen"
+        class="flex"
+      >
+        <img src="./images/icons/home.png" alt="" />
+        <span>Home</span>
+      </button>
+      <button class="tablinks" onclick="openCity(event, 'Library')">
+        <img src="./images/icons/Library.png" alt="" />
+        Library
+      </button>
+      <button class="tablinks" onclick="openCity(event, 'Playlist')">
+        <img src="./images/icons/playlist.png" alt="" />
+        Playlist
+      </button>
+      <button class="tablinks" onclick="openCity(event, 'Create_Playlist')">
+        <img src="./images/icons/create_playlist.png" alt="" />
+        Create Playlist
+      </button>
+      <button class="tablinks" onclick="openCity(event, 'Browse_Categories')">
+        <img src="./images/icons/browse_categories.png" alt="" />
+        Browse Categories
+      </button>
+      <button class="tablinks" onclick="openCity(event, 'Tokyo')">
+        <img src="./images/icons/heart.png" alt="" />
+        Favourite Songs
+      </button>
+      <button class="tablinks" onclick="openCity(event, 'Tokyo')">
+        <img src="./images/icons/user.png" alt="" />
+        User Profiles
+      </button>
+      <button class="tablinks" onclick="openCity(event, 'Tokyo')">
+        <img src="./images/icons/settings.png" alt="" />
+        Settings
+      </button>
+    </div>
+    <div>
+      <ul class="text-white flex gap-4">
+        <li class="ml-24 mt-2">
+          <input
+            type="search"
+            name="search"
+            id="search_bar"
+            class="bg-black border-2 w-80 py-1 px-8"
+            placeholder="Artist, Song, Lyrics and more"
+          />
+        </li>
+        <li class="ml-96 mt-2 cursor-pointer">
+          <img src="./images/icons/notification.png" alt="" class="w-9 h-9" />
+        </li>
+        <li class="mt-2">
+          <img src="./images/icons/Woman.png" alt="" />
+        </li>
+      </ul>
+    </div>
+
+    <!-- HOME SECTION -->
+    <div id="Home" class="tabcontent text-white">
+      <p class="mt-24 text-3xl">Top Picks</p>
+      <div class="music flex flex-wrap gap-4">
+        <!-- 1st -->
+        <div>
+          <img
+            src="./assets/Music playlist/Scatta_Scatta.png"
+            alt=""
+            class="w-60"
+          />
+          <p class="text-left text-base">Scatta Scatta</p>
+          <p class="text-left text-base">Fave</p>
+        </div>
+        <!-- 2nd -->
+        <div>
+          <img
+            src="./assets/Music playlist/Cough(odo).png"
+            alt=""
+            class="w-60"
+          />
+          <p class="text-left text-base">Cough (Odo)</p>
+          <p class="text-left text-base">EMPIRE & Kizz Daniel</p>
+        </div>
+        <!-- 3rd -->
+        <div>
+          <img src="./assets/Music playlist/3rd.png" alt="" class="w-60" />
+          <p class="text-left text-base">Sokoto</p>
+          <p class="text-left text-base">Young John</p>
+        </div>
+        <!-- 4th -->
+        <div class="flex flex-col w-60">
+          <img src="./assets/Music playlist/4th.png" alt="" class="w-60" />
+          <p class="text-left text-base">Mine Alone</p>
+          <p class="text-left text-base">Show Dem Camp & Oxlade</p>
+        </div>
+        <!-- 5th -->
+        <div class="flex flex-col w-60">
+          <img src="./assets/Music playlist/5th.png" alt="" class="w-60" />
+          <p class="text-left text-base">How Are You (My Friend)</p>
+          <p class="text-left text-base">Johnny Drille</p>
+        </div>
+        <!-- 6th -->
+        <div class="flex flex-col w-60">
+          <img src="./assets/Music playlist/6th.png" alt="Bella" class="w-60" />
+          <p class="text-left text-base">Philo</p>
+          <p class="text-left text-base">Bella Shmurda & Omah Lay</p>
+        </div>
+        <!-- 7th -->
+        <div class="flex flex-col w-60">
+          <img src="./assets/Music playlist/7th.png" alt="" />
+          <p class="text-left text-base">Back In Uni</p>
+          <p class="text-left text-base">Blaqbonez & JAE5</p>
+        </div>
+        <!-- 8th -->
+        <div class="flex flex-col w-60">
+          <img src="./assets/Music playlist/8th.png" alt="" />
+          <p class="text-left text-base">Big Money</p>
+          <p class="text-left text-base">Bad Boy Timz</p>
+        </div>
+        <!-- 9th -->
+        <div class="flex flex-col w-60">
+          <img src="./assets/Music playlist/9th.png" alt="" />
+          <p class="text-left text-base">Hypertension</p>
+          <p class="text-left text-base">Bella Shmurda</p>
+        </div>
+        <!-- 10th -->
+        <div class="flex flex-col w-60">
+          <img src="./assets/Music playlist/10th.png" alt="" />
+          <p class="text-left text-base">Love Is Not Enough, Vol. 2 - EP</p>
+          <p class="text-left text-base">Young John</p>
+        </div>
+        <!-- 11th -->
+        <div class="flex flex-col w-60">
+          <img src="./assets/Music playlist/11th.png" alt="" />
+          <p class="text-left text-base">Unwanted</p>
+          <p class="text-left text-base">Mannywellz</p>
+        </div>
+        <!-- 12th -->
+        <div class="flex flex-col w-60">
+          <img src="./assets/Music playlist/11th.png" alt="" />
+          <p class="text-left text-base">19 & Dangerous (Deluxe)</p>
+          <p class="text-left text-base">Ayra Starr</p>
+        </div>
+      </div>
+    </div>
+    <!-- END OF HOME SECTION  -->
+
+    <!-- LIBRARY SECTION -->
+    <div id="Library" class="tabcontent text-white">
+     <img src="./images/song_of_the_year.png" alt="" class="mt-6 m-auto">
+     <div class="item5 mt-2" id="wan" >
+
+      <div class="bg-purple-900 w-11/12 h-12 m-auto flex gap-24 justify-center items-center rounded-sm" id="footer">
+           <img src="./assets/Music playlist/shuffle.png" alt="" class="h-8 w-8 cursor-pointer">
+           <img src="./assets/Music playlist/rewind.png" alt="" class="h-8 w-8 cursor-pointer">
+           <img src="./assets/Music playlist/play.png" alt="" class="h-8 w-8 cursor-pointer">
+           <img src="./assets/Music playlist/fast-forward.png" alt="" class="h-8 w-8 cursor-pointer">
+           <img src="./assets/Music playlist/volume-2.png" alt="" class="h-8 w-8 cursor-pointer">
+      </div>
+  </div>
+    </div>
+
+    <div id="Playlist" class="tabcontent text-white">
+      <h3>Playlist</h3>
+      <p>Playlist resides here</p>
+    </div>
+
+    <div id="Create_Playlist" class="tabcontent text-white">
+      <h3>Create Playlist!</h3>
+      <p>Create Playlist resides here.</p>
+    </div>
+
+    <!-- BROWSE CATEGORIES -->
+    <div id="Browse_Categories" class="tabcontent">
+      <div
+        class="categories flex flex-wrap justify-center items-center gap-14 mt-2 px-6 bg-gray-700 border-2 "
+      >
+        <img src="./images/categories/pop.png" alt="" class="cursor-pointer " />
+        <img
+          src="./images/categories/African.png"
+          alt=""
+          class="cursor-pointer"
+        />
+        <img
+          src="./images/categories/RandB.png"
+          alt=""
+          class="cursor-pointer"
+        />
+        <img
+          src="./images/categories/Worldwide.png"
+          alt=""
+          class="cursor-pointer"
+        />
+        <img src="./images/categories/Rock.png" alt="" class="cursor-pointer" />
+        <img src="./images/categories/Hits.png" alt="" class="cursor-pointer" />
+        <img
+          src="./images/categories/Party.png"
+          alt=""
+          class="cursor-pointer"
+        />
+        <img
+          src="./images/categories/Dj_mixes.png"
+          alt=""
+          class="cursor-pointer"
+        />
+        <img
+          src="./images/categories/Country.png"
+          alt=""
+          class="cursor-pointer"
+        />
+        <img
+          src="./images/categories/Alternative.png"
+          alt=""
+          class="cursor-pointer"
+        />
+        <img
+          src="./images/categories/Sleep.png"
+          alt=""
+          class="cursor-pointer"
+        />
+        <img
+          src="./images/categories/Feeling_Blue.png"
+          alt=""
+          class="cursor-pointer pb-8"
+        />
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
